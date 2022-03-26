@@ -212,7 +212,7 @@ body {
         gap: 2.5rem;
     }
     .line-card-container {
-        margin-right: 30px;
+        margin-right: 10px;
         width: 80px;
         min-height: 500px;
         transform: translate(-37%, -110%);
@@ -239,9 +239,20 @@ body {
         min-height: 400px;
     }
 }
-@media (max-width: 505px) {
+@media (max-width: 480px) {
     .line-card-container {
-        min-height: 350px;
+        min-height: 270px;
+        width: 60px;
+    }
+    .line-midle {
+        margin-left: -150px;
+    }
+    .dot-inline {
+        gap: 1.5rem;
+    }
+    .number-container {
+        left: 5px;
+        bottom: -10px;
     }
 }
 
